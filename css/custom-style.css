@@ -1,0 +1,54 @@
+
+/*Стили для удобства видимости*/
+.container{
+	min-height: 300px;
+	outline: 1px solid #000;
+}
+
+.outline{
+	outline: 1px solid blue;
+	min-height: 300px;
+}
+.outline-2{
+	outline: 1px solid red;
+	min-height: 300px;
+}
+/*Переназначение стилей bootstrap, на необходимые нам:*/
+.outline .dropdown-menu>li>a:focus, .outline .dropdown-menu>li>a:hover{
+	background: #000;
+	color: #fff;
+}
+
+
+.js-list{
+	outline: 1px solid blue;
+}
+
+.js-list .js-item:first-child{
+	color: red;
+}
+
+.redClass{
+	color: red;
+	/*display: none;*/
+}
+.blueClass{
+	color: blue;
+	text-decoration: underline;
+}
+
+.result-js {
+	color: red;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.square {
+	height: 100px;
+	width: 100px;
+	border: solid 1px red;
+}
+
+.blueBack {
+	background-color: blue;
+}
