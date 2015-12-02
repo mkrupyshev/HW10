@@ -47,8 +47,15 @@
 	height: 100px;
 	width: 100px;
 	border: solid 1px red;
+	/*Так как стартовый цвет не был оглашен, то*/
+	/*нужно либо указать, что стартовый цвет прозрачный*/
+	background: transparent;
 }
-
+/*Либо создать класс, который будет отвечать за прозрачный фон, по принципу синего*/
+/*но этот вариант менее приоритетный*/
+.transparentBack {
+	background-color: blue;
+}
 .blueBack {
 	background-color: blue;
 }
