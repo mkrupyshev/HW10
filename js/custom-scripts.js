@@ -114,4 +114,19 @@ $(document).ready(function(){
 		$('#square').removeClass('blueBack');
 	})
 
+	// Чтоб не создавать дополнительные классы в css , можно 
+	//  воспользоваться методом .css()
+	// $('.square').mouseenter(function(){
+	// 	$('#square').css({
+	// 		'backgroundColor' : 'blue'
+	// 	})
+	// })
+
+	// $('.square').mouseleave(function(){
+	// 	$('#square').css({
+	// 		'backgroundColor' : 'transparent'
+	// 	})
+	// })
+
+
 })
